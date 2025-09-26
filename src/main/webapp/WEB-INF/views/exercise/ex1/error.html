@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Lỗi</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-light">
+<div class="container text-center py-5">
+    <h2 class="text-danger">🚫 Lỗi nhập bình luận</h2>
+    <p th:text="${errorMessage}"></p>
+    <a href="/exercise/ex1/commentBlogs/page" class="btn btn-primary">⬅️ Quay lại</a>
+</div>
+</body>
+</html>
